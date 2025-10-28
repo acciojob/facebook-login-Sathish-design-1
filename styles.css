@@ -1,1 +1,97 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+	width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left {
+    width: 450px;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.left img {
+    width: 250px;
+}
+
+.left p {
+    font-size: 20px;
+    color: #1c1e21;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    gap: 10px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.login {
+    background-color: #1877f2;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #166fe5;
+}
+
+a {
+    color: #1877f2;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.signup {
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 300px;
+}
+
+.signup:hover {
+    background-color: #36a420;
+}
